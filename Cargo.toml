@@ -1,0 +1,14 @@
+[package]
+name = "vklayer_ffmpeg_mock"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "VkLayer_ffmpeg_mock"
+crate-type = ["cdylib"]
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
+ash = "0.38.0"
